@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnion.ServerWithModel"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnion.Model", "MagicOnion.Model\MagicOnion.Model.csproj", "{45889298-D4C5-41C9-B1FA-40F9E97143DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{E5AA09C5-48A7-41B5-B7EC-222ABBE99275}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerWithModel", "ServerWithModel", "{DD7904FE-F258-468B-81F1-2A8394D94D86}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MagicOnion.Shared\MagicOnion.Shared.projitems*{8c734d89-20e9-4114-8878-3802b7a9e56a}*SharedItemsImports = 13
@@ -35,6 +39,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B66842D-FA08-41E8-B1E7-7EA751FEBE67} = {E5AA09C5-48A7-41B5-B7EC-222ABBE99275}
+		{5547D5BF-AFA4-491B-81C3-C1368E4DEF8B} = {DD7904FE-F258-468B-81F1-2A8394D94D86}
+		{45889298-D4C5-41C9-B1FA-40F9E97143DA} = {DD7904FE-F258-468B-81F1-2A8394D94D86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1A55398-5ABE-402E-ABD1-93248355C4FF}
